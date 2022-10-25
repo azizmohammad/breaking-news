@@ -17,7 +17,7 @@ app.get('/news-categories', (req, res) => {
     res.send(categories)
 })
 
-// news data
+// add news data
 app.get('/news/:id', (req, res) => {
     const id = req.params.id;
     const selectedNews = news.find(n => n._id === id);
@@ -30,7 +30,7 @@ app.get('/news', (req, res) => {
 })
 
 
-// category news
+// category news data
 app.get('/category/:id', (req, res) => {
     const id = req.params.id;
     if (id === '08') {
