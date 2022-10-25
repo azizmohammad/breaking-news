@@ -46,5 +46,5 @@ app.get('/category/:id', (req, res) => {
 
 
 app.listen(port, () => {
-    console.log('breaking news sarver running on port', port)
+    console.log('breaking news sarver running on port start', port)
 })
