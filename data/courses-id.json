@@ -1,0 +1,26 @@
+[
+    {
+        "id": "01",
+        "name": "Html Courses"
+    },
+    {
+        "id": "02",
+        "name": "Javascript Courses"
+    },
+    {
+        "id": "03",
+        "name": "React Courses"
+    },
+    {
+        "id": "04",
+        "name": "Node Courses"
+    },
+    {
+        "id": "05",
+        "name": "Redux Courses"
+    },
+    {
+        "id": "06",
+        "name": "Express Courses"
+    }
+]
